@@ -2,11 +2,12 @@
 
 // Import a library to help create a component
 import React from 'react'; //bagaimana component harus bekerja
-import { Text, AppRegistry } from 'react-native'; //portal ke mobile device
+import { AppRegistry } from 'react-native'; //portal ke mobile device
+import Header from './src/components/header';
 
 // Create a component
 const App = () => (
-		<Text>Some Text</Text>
+		<Header />
 	);
 
 // Render it to the device
